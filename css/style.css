@@ -76,6 +76,7 @@ p {
   font-weight: bold;
   display: block;
   border-radius: 5px;
+  margin-top: 3em;
 }
 .cat {
   position: relative;
@@ -190,11 +191,23 @@ p {
 
 @media(min-width:1200px){
 
+  .wrapper{
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 1200px;
+  }
+  a.primary-cta{
+    display: inline-block;
+    width: auto;
+    padding: 1em 2em ;
+  }
+
   .cat{
     position: relative;
 
     img{
       max-width: 400px;
+      left: 50%;
     }
   }
 }
